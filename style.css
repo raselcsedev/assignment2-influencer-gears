@@ -1,6 +1,7 @@
-/* Google Font */
+/* ----------------------------------------------------------GOOGLE FONT-------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
+/* --------------------------------COMMON TAG ------------------------------------------------------------ */
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@ body{
     margin: 0 auto;
     padding: 0 30px ;
 }
+/* -------------------------------------------NAVIGATION PART---------------------------------------------------- */
 .navbar-class{
     display: flex;
     justify-content: center;
@@ -30,6 +32,8 @@ nav{
 }
 .nav-togle-icon{
     display: none;
+    padding: 10px 30px;
+    cursor: pointer;
 }
 .nav-menu ul{
     display: flex;
@@ -44,7 +48,7 @@ nav{
     padding: 15px 10px;
 }
 
-/* Product Profile Style */
+/* ------------------------------- PRODUCT PROFILE  STYLE PART----------------------------------------------- */
 
 .product-profile{
     display: flex;
@@ -95,8 +99,7 @@ nav{
     margin-left: 10px;
 }
 
-
-/* Collection CSS part */
+/* --------------------------------------POPULAR COLLECTION CSS PART------------------------------------------- */
 
 .collection-title{
     display: flex;
@@ -182,7 +185,7 @@ nav{
     margin-left: 10px;
 }
 
-/* -------------------------------------------social-midea-influencer--------------------------------------------- */
+/* -------------------------------------------SOCIAL MEDIA INFLUENCER------------------------------------------- */
 
 .social-media-influencer{
     display: flex;
@@ -223,6 +226,7 @@ nav{
     margin-left: 10px;
 }
 
+/* -------------------------FOOTER PART----------------------------------------------------------------------- */
 footer{
     width: 100%;
     height: calc(100%-80px);
@@ -247,6 +251,7 @@ footer .fab{
     margin: 0px 10px;
 }
 
+/*------------------------------------ RESPONSIVE CSS PART------------------------------------------------------- */
 
 @media only screen and (max-width:688px) {
     .container{
